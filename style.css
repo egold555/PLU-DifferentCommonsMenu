@@ -1,0 +1,54 @@
+table.pluTable {
+    border: 1px solid #FFCC00;
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table.pluTable td,
+table.pluTable th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+}
+
+table.pluTable tbody td {
+    font-size: 13px;
+}
+
+table.pluTable tr:nth-child(even) {
+    background: #FFCC00;
+}
+
+table.pluTable thead {
+    background: #FFCC00;
+    border-bottom: 2px solid #444444;
+}
+
+table.pluTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #D0E4F5;
+}
+
+table.pluTable thead th:first-child {
+    border-left: none;
+}
+
+table.pluTable tfoot td {
+    font-size: 14px;
+}
+
+table.pluTable tfoot .links {
+    text-align: right;
+}
+
+table.pluTable tfoot .links a {
+    display: inline-block;
+    background: #1C6EA4;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
